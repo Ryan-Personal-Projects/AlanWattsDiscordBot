@@ -1,5 +1,4 @@
 const axios = require('axios');
-const { data } = require('../commands/ping');
 
 const URL = 'https://api.weatherapi.com/v1/forecast.json';
 const FORECAST_DAYS = 3;
